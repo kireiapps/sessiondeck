@@ -4,7 +4,7 @@
 
 Session Deck transforms old Hermes conversations into an interactive deck of cards. Instead of letting past sessions become clutter, each card becomes a choice that helps your AI evolve.
 <p align="center">
-  <img src="assets/banner.png" alt="Session Deck Banner" width="100%">
+  <img src="assets/banner.jpg" alt="Session Deck Banner" width="100%">
 </p>
 ## Features
 
