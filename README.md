@@ -1,94 +1,72 @@
 <p align="center">
-  <img src="assets/banner.jpg" width="100%" alt="Session Deck">
+  <img src="assets/banner.jpg" alt="Session Deck" width="100%">
 </p>
 
-<h1 align="center">🃏 Session Deck</h1>
+# 🃏 Session Deck
 
-<p align="center">
-Transform forgotten Hermes sessions into a living deck of knowledge.
-</p>
+> Turn forgotten Hermes sessions into a living deck of knowledge.
 
-<p align="center">
+Session Deck transforms old Hermes conversations into an interactive deck of cards. Instead of letting past sessions become clutter, each card becomes a choice that helps your AI evolve.
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Hermes](https://img.shields.io/badge/Hermes-Skill-black?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Experimental-FF6B35?style=for-the-badge)
-
-</p>
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Hermes Skill](https://img.shields.io/badge/Hermes-Skill-000000?style=flat-square)
+![MIT License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
 
 ---
 
-## ✨ What is Session Deck?
-
-AI conversations slowly become digital clutter.
-
-**Session Deck** turns every old Hermes session into an interactive card.
-
-Every draw is a decision.
-
-> Burn it.
->
-> Distill it.
->
-> Remember it.
->
-> Inspect it.
->
-> Or let it live another day.
-
-Instead of storing history forever, your AI continuously **curates**, **learns**, and **evolves**.
-
----
-
-# 🃏 Gameplay
+## 🃏 Gameplay
 
 ```
-          ┌─────────────┐
-          │ Draw a Card │
-          └──────┬──────┘
-                 │
-        ┌────────┼────────┐
-        │        │        │
-        ▼        ▼        ▼
+          Draw a Card
+               │
+   ┌───────────┼───────────┐
+   │           │           │
+   ▼           ▼           ▼
 
-🔥 Discard   ✨ Distill   🧠 Imprint
- Delete      Create Skill Save Memory
+🔥 Discard  ✨ Distill  🧠 Imprint
 
-        │
-        ▼
+       │
+       ▼
 
 👁️ Inspect
- Review Session
 
-        │
-        ▼
+       │
+       ▼
 
 ⏭️ Pass
- Next Card
 ```
 
 ---
 
-# ⚡ Features
+## ✨ Features
 
 | Action | Description |
-|---------|-------------|
-| 🔥 **Discard** | Permanently delete obsolete sessions. |
-| ✨ **Distill** | Convert conversations into reusable Skills. |
-| 🧠 **Imprint** | Save critical knowledge into permanent Memory. |
-| 👁️ **Inspect** | Explore the complete history before deciding. |
-| ⏭️ **Pass** | Skip the card and revisit it later. |
+|--------|-------------|
+| 🔥 **Discard** | Permanently delete obsolete sessions and unwanted context. |
+| ✨ **Distill** | Extract reusable workflows and convert them into Skills. |
+| 🧠 **Imprint** | Save important decisions and long-term preferences into Memory. |
+| 👁️ **Inspect** | Review the complete history before making a decision. |
+| ⏭️ **Pass** | Skip the current card and revisit it later. |
 
 ---
 
-# 🚀 Installation
+## 💡 Why?
+
+AI conversations are usually forgotten once they're over.
+
+Session Deck treats conversations as assets instead of archives. Every session can become reusable knowledge, a permanent memory, or simply disappear when it no longer provides value.
+
+Instead of collecting history forever, your AI continuously **curates**, **learns**, and **evolves**.
+
+---
+
+## 🚀 Installation
 
 ```bash
 cp -r session-deck ~/.hermes/skills/automation/session-deck
 ```
 
-Verify installation
+Verify installation:
 
 ```bash
 hermes skills list
@@ -96,15 +74,15 @@ hermes skills list
 
 ---
 
-# ▶️ Usage
+## ▶️ Usage
 
 ```bash
 python3 scripts/session_deck.py pick
 ```
 
-or simply tell your agent
+Or simply tell your agent:
 
-```
+```text
 Start Session Deck.
 
 Draw a random card.
@@ -117,86 +95,30 @@ Imprint
 Inspect
 Pass
 
-Repeat forever.
+Repeat.
 ```
 
 ---
 
-# 💡 Why?
-
-Traditional chat history keeps growing forever.
-
-Session Deck believes conversations should become one of three things:
-
-```
-Knowledge
-      ▲
-      │
-Conversation
-      │
-      ▼
- Garbage
-```
-
-Not every conversation deserves to live forever.
-
-Not every conversation deserves to die.
-
-Session Deck lets you decide.
-
----
-
-# ⚙️ Built For
-
-✅ Hermes WebUI
-
-✅ Long-running AI Agents
-
-✅ Personal Knowledge Management
-
-✅ Continuous Memory Curation
-
----
-
-# 🛣️ Roadmap
-
-- [x] Random session deck
-- [x] Session inspection
-- [x] Permanent deletion
-- [x] Sidebar live sync
-- [x] Automatic Hermes detection
-- [ ] Distill → Auto Skill generation
-- [ ] Imprint → One-click Memory creation
-- [ ] Beautiful WebUI deck animations
-
----
-
-# 📸 Preview
+## 📸 Preview
 
 <p align="center">
-<img src="assets/preview.gif" width="900">
+  <img src="assets/preview.gif" width="900">
 </p>
 
 ---
 
-# 📜 License
+## 📜 License
 
 MIT
 
-Use it.
-
-Fork it.
-
-Improve it.
-
-Build something amazing.
+Use it. Fork it. Improve it.
 
 ---
 
 <p align="center">
 
-**Every conversation is a card.**
-
+**Every conversation is a card.**  
 **Every card is a decision.**
 
 🃏
