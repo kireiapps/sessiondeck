@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.jpg" alt="Session Deck" width="100%">
+  <img src="assets/banner.jpg" alt="Session Deck Banner" width="100%">
 </p>
 
 # 🃏 Session Deck
@@ -8,57 +8,61 @@
 
 Turn forgotten Hermes sessions into a living deck of knowledge.
 
-Session Deck transforms old Hermes conversations into an interactive deck of cards. Instead of letting past sessions become clutter, each card becomes a choice that helps your AI evolve.
+Session Deck transforms old Hermes conversations into an interactive deck of cards. Every card represents a past conversation waiting for a decision. Instead of letting sessions accumulate forever, you decide what deserves to be forgotten, remembered, or transformed into reusable knowledge.
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Hermes Skill](https://img.shields.io/badge/Hermes-Skill-000000?style=flat-square)
-![MIT License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-success?style=flat-square)
 
 ---
 
-## 🃏 Gameplay
+## 🃏 How it Works
+
+Every turn starts the same way.
 
 ```text
-          Draw a Card
-               │
-   ┌───────────┼───────────┐
-   │           │           │
-   ▼           ▼           ▼
-
-🔥 Discard  ✨ Distill  🧠 Imprint
-
-       │
-       ▼
-
-👁️ Inspect
-
-       │
-       ▼
-
-⏭️ Pass
+🎴 Draw a random Session Card
+            │
+            ▼
+   Read the session preview
+            │
+            ▼
+      Make a decision
 ```
 
----
+If the preview isn't enough, inspect the full conversation first.
 
-## ✨ Features
+```text
+👁️ Inspect
+Open the complete conversation history,
+then return to the decision.
+```
+
+Then choose one of the five actions.
 
 | Action | Description |
 |--------|-------------|
-| 🔥 **Discard** | Permanently delete obsolete sessions and unwanted context. |
-| ✨ **Distill** | Extract reusable workflows and convert them into Skills. |
-| 🧠 **Imprint** | Save important decisions and long-term preferences into Memory. |
-| 👁️ **Inspect** | Review the complete history before making a decision. |
-| ⏭️ **Pass** | Skip the current card and revisit it later. |
+| 🔥 **Discard** | Permanently delete the session. |
+| ✨ **Distill** | Extract reusable knowledge and convert it into a Skill. |
+| 🧠 **Imprint** | Store important information as permanent Memory instead of creating a Skill. |
+| 👁️ **Inspect** | Open the full conversation before making a decision. |
+| ⏭️ **Pass** | Keep the session exactly as it is and draw another card. |
 
 ---
 
 ## 💡 Why?
 
-AI conversations are usually forgotten once they're over.
+Most AI conversations slowly become digital clutter.
 
-Session Deck treats conversations as assets instead of archives. Every session can become reusable knowledge, a permanent memory, or simply disappear when it no longer provides value.
+Some deserve to be forgotten.
 
-Instead of collecting history forever, your AI continuously **curates**, **learns**, and **evolves**.
+Some contain workflows worth turning into reusable Skills.
+
+Some hold long-term preferences that belong in Memory.
+
+Session Deck lets you curate your AI's history instead of endlessly collecting it.
+
+Every session becomes a conscious decision rather than forgotten context.
 
 ---
 
@@ -68,7 +72,7 @@ Instead of collecting history forever, your AI continuously **curates**, **learn
 cp -r session-deck ~/.hermes/skills/automation/session-deck
 ```
 
-Verify installation:
+Verify the installation:
 
 ```bash
 hermes skills list
@@ -82,7 +86,7 @@ hermes skills list
 python3 scripts/session_deck.py pick
 ```
 
-Or simply tell your agent:
+Or simply ask your Hermes agent:
 
 ```text
 Start Session Deck.
@@ -102,19 +106,24 @@ Repeat.
 
 ---
 
-## 📜 License
+## ⚙️ Philosophy
 
-MIT
+AI memory shouldn't grow forever.
 
-Use it. Fork it. Improve it.
+It should be curated.
+
+Every discarded session removes noise.
+
+Every distilled session creates a reusable capability.
+
+Every imprint strengthens long-term memory.
+
+Every decision makes your AI a little better than yesterday.
 
 ---
 
-<p align="center">
+## 📜 License
 
-**Every conversation is a card.**  
-**Every card is a decision.**
+MIT License
 
-🃏
-
-</p>
+Use it. Fork it. Improve it. Build on it.
