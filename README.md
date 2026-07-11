@@ -4,7 +4,9 @@
 
 # 🃏 Session Deck
 
-> Turn forgotten Hermes sessions into a living deck of knowledge.
+> **Control. Observe. Purge.**
+
+Turn forgotten Hermes sessions into a living deck of knowledge.
 
 Session Deck transforms old Hermes conversations into an interactive deck of cards. Instead of letting past sessions become clutter, each card becomes a choice that helps your AI evolve.
 
@@ -16,7 +18,7 @@ Session Deck transforms old Hermes conversations into an interactive deck of car
 
 ## 🃏 Gameplay
 
-```
+```text
           Draw a Card
                │
    ┌───────────┼───────────┐
@@ -97,14 +99,6 @@ Pass
 
 Repeat.
 ```
-
----
-
-## 📸 Preview
-
-<p align="center">
-  <img src="assets/preview.gif" width="900">
-</p>
 
 ---
 
